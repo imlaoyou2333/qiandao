@@ -2,6 +2,6 @@
   "name": "qiandao",
   "private": true,
   "scripts": {
-    "start": "meteor run"
+    "start": "python ./run.py"
   }
 }
