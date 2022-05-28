@@ -1,0 +1,7 @@
+{
+  "name": "qiandao",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  }
+}
