@@ -32,7 +32,7 @@ RUN chmod 600 /root/.ssh/id_rsa \
     && ssh-keyscan github.com > /root/.ssh/known_hosts \
     && let num=$RANDOM%100+10 \
     && sleep $num \
-    && git clone git@github.com:a76yyyy/qiandao.git /gitclone_tmp \
+    && git clone git@github.com:qiandao-today/qiandao.git /gitclone_tmp \
     && yes | cp -rf /gitclone_tmp/. /usr/src/app \
     && rm -rf /gitclone_tmp \
     && chmod +x /usr/src/app/update.sh \
